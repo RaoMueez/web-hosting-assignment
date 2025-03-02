@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #007bff;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 150px;  /* Adjust size as needed */
+    border-radius: 10px;  /* Optional: adds rounded corners */
+    box-shadow: 2px 2px 5px gray; /* Optional: adds a shadow */
+}
+.picture-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+}
+
+.picture-container h2 {
+    margin: 0;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.6);  /* Semi-transparent background */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: fit-content;
+}
+
+.picture-container img {
+    margin-top: 25px; /* Increased space between text and image */
+    width: 150px;  /* Adjust size as needed */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
